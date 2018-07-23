@@ -1,0 +1,229 @@
+body {
+  font-family: 'Lato', 'Helvetica', 'san-serif';
+  color: #313131;
+}
+
+section {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.white-overlay {
+  background-color: rgba(255,255,255, 0.75);
+  min-height: 100vh;
+  width: 100%;
+}
+.black-overlay {
+  background-color: rgba(0,0,0, 0.25);
+  min-height: 100vh;
+  width: 100%;
+}
+.decade-header {
+  border-top: 1px solid black;
+  background-color: rgb(240, 240, 240);
+  z-index: 300;
+}
+.decade-header h2 {
+  margin-right: 6px;
+}
+
+#home {
+  z-index: 101;
+  background-image: url("../images/fdr-desk.jpg");
+  background-position-x: center;
+  background-position-y: top;
+  color: white;
+  text-align: center;
+}
+#home h1 {
+  font-size: 56px;
+  margin-top: 400px;
+}
+#home h3 {
+  line-height: 36px;
+}
+#D1920 {
+  background-image: url("../images/cpusa-rally-1931.png");
+}
+#D1930 {
+  background-image: url("../images/fdr-flag-rally.jpg");
+}
+#D1940 {
+  background-image: url("../images/yalta-just-3.jpg");
+  background-position-x: center;
+  background-position-y: top;
+}
+#D1950 {
+  background-image: url("../images/ike-and-dick.jpg");
+}
+#D1960 {
+  background-image: url("../images/jfk-hoover.jpg");
+}
+#D1970 {
+  background-image: url("../images/jane-fonda.jpg");
+}
+#D1980 {
+  background-image: url("../images/reagan-rally.jpg");
+  background-position-x: center;
+  background-position-y: top;
+}
+#D1990 {
+  background-image: url("../images/clinton-wave.jpg");
+  background-position-x: center;
+  background-position-y: top;
+}
+#D2000 {
+  background-image: url("../images/mission-accomplished.jpg");
+}
+#D2010 {
+  background-image: url("../images/obama-chavez.jpg");
+  background-position-x: center;
+  background-position-y: 25%;
+}
+
+.center-line {
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 4px);
+  width: 2px;
+  background-color: #313131;
+  min-height: 100vh;
+  height: 100%;
+  z-index: 100;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav>li>a {
+    padding: 5px 8px;
+    margin: 10px 7px;
+  }
+}
+
+.brand-holder {
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  
+  border-top: 60px solid #313131;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  margin: 0;
+  padding: 0;
+  width: 0;
+}
+.navbar-brand img {
+  height: 114px;
+  position: absolute;
+  top: -60px;
+  right: -85px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+footer {
+  padding: 30px 0px;
+}
+
+/* .active {
+  border-bottom: 2px solid #f49b1d;
+} */
+
+.centered-text {
+  text-align: center;
+}
+
+/* FLEX */
+.centered-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.row-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.space-between-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.centered-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.space-around-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #a5a5a5;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #a5a5a5;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #a5a5a5;
+}
+
+@media (max-width: 372px) {
+  .navbar-brand img {
+    height: 18px;
+  }
+}
+
+#loading-screen {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(0deg, #a7a7a7 0%, #dadada 100%);
+  position: fixed;
+  z-index: 100;
+  justify-content: center;
+}
+
+.spinner {
+  height: 300px;
+  width: 300px;
+}
+
+#loading-screen img {
+  height: 100px;
+  width: 200px;
+}

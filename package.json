@@ -6,7 +6,8 @@
     "version": "3.7.1"
   },
   "scripts": {
-    "start": "hexo clean && hexo generate"
+    "start": "hexo server",
+    "build": "hexo clean && hexo generate && yes | cp -rf ./source/js ./public/js"
   },
   "dependencies": {
     "hexo": "^3.2.0",

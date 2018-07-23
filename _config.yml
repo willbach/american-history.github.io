@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language:
+title: Anglo-American Progressivism
+subtitle: The History of Progressivism in England, the United States, and the Western World
+description: The History of Anglo-American Progressivism
+keywords: "America American US USA History Government Progressive Progressivism Anglo-American Anglo England English International Democratic Democracy Republican Republic 20th Century 1900s 2000s 21st Century"
+author: "American Progressives for Global Inclusion"
+language: "en"
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://github.com/american-history/american-history.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -27,6 +27,10 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - js
+  - css
+  - index.html
+  - about.html
 
 # Writing
 new_post_name: :title.md # File name of new posts
