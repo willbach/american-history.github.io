@@ -1,0 +1,22 @@
+{
+  "name": "american-history.github.io",
+  "version": "1.0.0",
+  "description": "The History of Anglo-American Progressivism",
+  "main": "compile-articles.js",
+  "scripts": {
+    "start": "node compile-articles.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/american-history/american-history.github.io.git"
+  },
+  "author": "American Progressives for Global Inclusion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/american-history/american-history.github.io/issues"
+  },
+  "homepage": "https://github.com/american-history/american-history.github.io#readme",
+  "dependencies": {
+    "markdown-it": "^8.4.2"
+  }
+}
