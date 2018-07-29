@@ -4,7 +4,7 @@
   "description": "The History of Anglo-American Progressivism",
   "main": "compile-articles.js",
   "scripts": {
-    "start": "node compile-articles.js"
+    "start": "cd articles/ && rm -rf && cd .. && node compile-articles.js"
   },
   "repository": {
     "type": "git",
